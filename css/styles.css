@@ -388,6 +388,30 @@ body {
   padding: 0px;
 }
 
+.services-label {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.services-label > .services-label-text {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  position: absolute;
+  margin: 0px;
+  width: 370px;
+  height: 70px;
+  bottom: 0px;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .social-list-list {
   list-style-type: none;
   display: flex;
