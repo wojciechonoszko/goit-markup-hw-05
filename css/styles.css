@@ -77,6 +77,7 @@ body {
   text-decoration: none;
   width: 53px;
   height: 16px;
+  position: relative;
 
   font-weight: 500;
   font-size: 14px;
@@ -94,6 +95,32 @@ body {
 .menu-item:focus {
   color: #2196f3;
 }
+
+
+a::after {
+    content: "";
+    display: block;
+    width: 53px;
+    height: 4px;
+    position: absolute;
+    bottom: -32px;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+
+
+.menu-item:hover::after {
+    content: "";
+    display: block;
+    width: 53px;
+    height: 4px;
+    position: absolute;
+    bottom: -32px;
+    background-color: #2196F3;
+    border-radius: 4px;
+}
+
 
 .email {
   display: flex;
