@@ -60,7 +60,9 @@
       <div class="head-background">
         <div class="container">
           <p class="head-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</p>
-          <button class="head-button">Zamów usługę</button>
+          <button class="head-button" type="button" data-modal-open>
+            Zamów usługę
+          </button>
         </div>
       </div>
 
@@ -443,5 +445,12 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close="">X</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
