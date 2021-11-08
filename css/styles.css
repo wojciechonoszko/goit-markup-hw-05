@@ -17,7 +17,6 @@ body {
   border-bottom: 1px solid #ffffff;
   background-color: #ffffff;
   height: 80px;
-  width: 1600px;
 }
 .header-content {
   display: flex;
@@ -31,13 +30,12 @@ body {
       rgba(47, 48, 58, 0.4)
     ),
     url("../images/img-overlay.jpg");
-  background-size: 1600px 600px, cover;
+  background-height: 600px, cover;
   background-position: center, center;
   background-repeat: no-repeat;
   background-color: #2f303a;
 
   height: 600px;
-  width: 1600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,14 +45,12 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  width: 1600px;
 }
 
 .section-our-team {
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
-  width: 1600px;
 }
 
 .menu {
@@ -267,7 +263,6 @@ a::after {
   display: block;
   background-color: #2f303a;
   height: 252px;
-  width: 1600px;
 }
 .footer-email {
   width: 231px;
